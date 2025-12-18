@@ -1,8 +1,9 @@
 .hope-c-PJLV-ikaMhsQ-css,               /* 网页主页导航栏 */
 .hope-c-PJLV-iehpHsP-css,               /* 挂载文件导航栏 */
+.hope-c-PJLV-iigjoxS-css,               /* 文档展示面板 */
 .hope-c-PJLV-idaeksS-css                /* 挂载文件导航栏悬浮 */
 {
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 .hope-c-PJLV-ihVlqVC-css,               /* 视图展示按钮 */
@@ -13,7 +14,6 @@
     opacity: 0.7;
 }
 
-.hope-c-PJLV-iigjoxS-css,               /* 文档展示面板 */
 .hope-c-PJLV-ijSQbqe-css                /* 文档展示或下载的选择框 */
 {
     opacity: 0.8;
