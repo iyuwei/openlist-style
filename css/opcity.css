@@ -1,11 +1,11 @@
+.hope-c-PJLV-igScBhH-css
+{
+    opacity: 0.4;
+}
 .hope-c-PJLV-ikaMhsQ-css,               /* 网页主页导航栏 */
 .hope-c-PJLV-iehpHsP-css,               /* 挂载文件导航栏 */
 .hope-c-PJLV-iigjoxS-css,               /* 文档展示面板 */
-.hope-c-PJLV-idaeksS-css                /* 挂载文件导航栏悬浮 */
-{
-    opacity: 0.5;
-}
-
+.hope-c-PJLV-idaeksS-css,               /* 挂载文件导航栏悬浮 */
 .hope-c-PJLV-ihVlqVC-css,               /* 视图展示按钮 */
 .hope-c-PJLV-iSMXDf-css,                /* 视图展示选项卡 */
 .hope-c-PJLV-ifiEvmt-css,               /* 选项菜单 */
@@ -14,15 +14,11 @@
     opacity: 0.7;
 }
 
-.hope-c-PJLV-ijSQbqe-css                /* 文档展示或下载的选择框 */
-{
-    opacity: 0.8;
-}
-
+.hope-c-PJLV-ijSQbqe-css,                /* 文档展示或下载的选择框 */
 .hope-c-PJLV-ibtHApG-css,               /* 输入框-未选中 */
 .hope-c-kvTTWD-hYRNAb-variant-filled,   /* 输入框-悬浮 */
 .hope-c-PJLV-ijpihTg-css,               /* 输入框下拉栏 */
 .hope-c-iPJpIL-bVSmjq-size-xs           /* 本地设置面板 */
 {
-    opacity: 0.9;
+    opacity: 0.8;
 }
