@@ -1,7 +1,7 @@
 // 主题-视频映射配置
 const themeVideoMap = {
-    'hope-ui-light': 'https://gitee.com/iyuwei/openlist-style/raw/master/video/1.mp4',
-    'hope-ui-dark': 'https://gitee.com/iyuwei/openlist-style/raw/master/video/2.mp4'
+    'hope-ui-light': 'https://github.com/iyuwei/openlist-style/raw/main/video/1.mp4',
+    'hope-ui-dark': 'https://github.com/iyuwei/openlist-style/raw/main/video/1.mp4'
 };
 
 // 全局状态：记录当前活跃视频
@@ -127,4 +127,5 @@ if (document.readyState === 'loading') {
 } else {
     initBackgroundVideo();
     watchThemeChange();
+
 }
