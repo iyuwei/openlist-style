@@ -1,0 +1,44 @@
+/* 深色/亮色模式背景图通用样式（提取公共属性，减少冗余） */
+.hope-ui-dark,
+.hope-ui-light {
+  /* 背景图基础配置：固定定位+全覆盖+左对齐，统一复用 */
+  background-image: url(""); /* 占位，后续按模式赋值 */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: left center; /* 优化定位：左对齐+垂直居中，避免图片裁切异常 */
+  background-repeat: no-repeat; /* 防止背景图重复（原代码未显式声明，补充后更严谨） */
+  
+  /* 模糊效果实现：通过伪元素承载背景图，避免模糊影响内容 */
+  position: relative; /* 为伪元素绝对定位提供参考 */
+  z-index: 1; /* 确保主体内容在伪元素之上 */
+}
+
+/* 伪元素：单独承载背景图并添加模糊，不影响容器内子元素 */
+.hope-ui-dark::before,
+.hope-ui-light::before {
+  content: ""; /* 伪元素必须有content */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit; /* 继承父元素的背景图地址 */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  filter: blur(8px); /* 模糊度：数值越大越模糊（建议3-10px，8px为均衡值） */
+  -webkit-filter: blur(8px); /* 兼容Safari等webkit内核浏览器 */
+  z-index: -1; /* 伪元素置于底层，避免遮挡内容 */
+  opacity: 0.9; /* 可选：调整背景图透明度，避免与内容冲突 */
+}
+
+/* 深色模式背景图赋值 */
+.hope-ui-dark {
+  background-image: url("https://gitee.com/iyuwei/openlist-style/raw/master/img/bgimg/1.jpg");
+}
+
+/* 亮色模式背景图赋值 */
+.hope-ui-light {
+  background-image: url("https://gitee.com/iyuwei/openlist-style/raw/master/img/bgimg/2.jpg");
+}
