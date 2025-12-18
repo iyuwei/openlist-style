@@ -1,6 +1,10 @@
 .hope-c-PJLV-ikaMhsQ-css,               /* 网页主页导航栏 */
 .hope-c-PJLV-iehpHsP-css,               /* 挂载文件导航栏 */
-.hope-c-PJLV-idaeksS-css,               /* 挂载文件导航栏悬浮 */
+.hope-c-PJLV-idaeksS-css                /* 挂载文件导航栏悬浮 */
+{
+    opacity: 0.2;
+}
+
 .hope-c-PJLV-ihVlqVC-css,               /* 视图展示按钮 */
 .hope-c-PJLV-iSMXDf-css,                /* 视图展示选项卡 */
 .hope-c-PJLV-ifiEvmt-css,               /* 选项菜单 */
